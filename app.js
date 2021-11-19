@@ -58,6 +58,7 @@ stopb.addEventListener("click" , function(event){
     }
 });
 
+//by clicking on the reset button the clock will stop and the data will be defined as zero 
 resetb.addEventListener("click",function(event){
 stopClock();
 timeout=true;
